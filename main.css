@@ -1,0 +1,135 @@
+            body {
+                font-family: 'Lato', sans-serif;
+                background-image: url(IMG_1559.JPG);
+                background-attachment: scroll;
+                background-position: left;
+                margin: 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+                
+            }
+            
+            h1 {   
+                color: #404040; 
+                color: rgb(64,64,64); 
+                font-family: Arial; sans-serif; 
+                font-weight: bolder;
+                font-style: normal;
+                font-size: 35px;
+                text-transform: uppercase;
+         }
+            
+            p, h1 {
+                
+                margin-right: 20px;
+                margin-left: 20px;
+                
+            }
+            
+            p.adress {
+                margin-top: 5px;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+            div {
+                
+            }
+            
+/* internet solution for elements being next to each other, not quiet satisfying... */
+            
+.clearfix:before,
+.clearfix:after {
+content: ” “;
+display: inline-block;
+}
+.clearfix:after {
+clear: both;
+}
+.clearfix {
+*zoom: 1;
+}
+.left {
+float: left;
+width: 33%;
+}
+            
+/* end of code from the internet */
+            
+            p.topic {
+                font-weight: bolder;
+                text-align: left;
+                
+            }
+            
+            p.content {
+                text-align: right;
+                margin-left: 60%;
+            }
+            
+            img {
+                height: inherit;
+                width: inherit;
+            }
+            
+            a:visited {
+                color: #7f004e;
+            }
+            
+            a:active {
+                color: #04407a;
+            }
+            
+            a:hover {
+                color: 04407a;
+                text-decoration: none;
+            }
+            
+            ul {
+                list-style-type: square;
+                margin-right: 20px;
+                margin-left: 450px;
+            }
+            
+            h1 {
+                font-weight: bolder;
+            }
+            
+            h2 {
+                color: white;
+                background-color: #04407a;
+                text-align: center;
+                font-weight: 400;
+                
+            }
+
+            article {
+                width: 580px;
+                background-color: rgba(255, 255, 255, 0.6);
+                padding-top: 10px;
+                padding-bottom: 15px;
+                padding: 10px 0px 10px 0px;
+                margin: 0 auto;
+            }
+            
+            header {
+                background-color: #333333; 
+                color: white;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding: 10px 0px 10px 0px;
+                
+                
+            }
+            
+            footer {
+                
+                background-color: #000000;
+                color: white;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding: 10px 0px 10px 0px;
+}
